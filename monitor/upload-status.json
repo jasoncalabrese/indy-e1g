@@ -7,85 +7,83 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-11T13:54:39.000Z", 
+      "timestamp": "2016-08-11T14:00:05.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 115.675, 
-    "clock": "2016-08-11T06:54:29-07:00"
+    "clock": "2016-08-11T06:59:22-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4380
+    "batteryVoltage": 4379
   }, 
   "openaps": {
     "suggested": {
-      "bg": 138, 
+      "bg": 131, 
       "temp": "absolute", 
-      "snoozeBG": 112, 
-      "timestamp": "2016-08-11T13:56:02.000Z", 
-      "rate": 0, 
-      "reason": "COB: 0, Dev: -10, BGI: 0.9, ISF: 100, Target: 129; Eventual BG 112 < 129, setting -0.275U/hr", 
+      "snoozeBG": 111, 
+      "timestamp": "2016-08-11T14:01:59.000Z", 
+      "predBGs": {
+        "IOB": [
+          131, 
+          128, 
+          125, 
+          122, 
+          120, 
+          118, 
+          116, 
+          115, 
+          114, 
+          113, 
+          112, 
+          112, 
+          113, 
+          114, 
+          114, 
+          115, 
+          116, 
+          117, 
+          117, 
+          118, 
+          119, 
+          120, 
+          121, 
+          122, 
+          123, 
+          124, 
+          124, 
+          125, 
+          126, 
+          127, 
+          127, 
+          128, 
+          129, 
+          129, 
+          129, 
+          130
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -24, BGI: 1.5, ISF: 100, Target: 129; Eventual BG 111 < 129, setting -0.275U/hr, but 28m left and 0 ~ req 0U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 112, 
-      "duration": 30, 
-      "tick": -2, 
-      "IOB": 0.158
+      "eventualBG": 111, 
+      "tick": -3, 
+      "IOB": -0.052
     }, 
     "iob": {
-      "netbasalinsulin": 0.1, 
-      "timestamp": "2016-08-11T13:54:29.000Z", 
-      "activity": -0.0018, 
-      "basaliob": 0.158, 
-      "hightempinsulin": 0.65, 
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-08-11T13:59:22.000Z", 
+      "activity": -0.003, 
+      "basaliob": -0.052, 
+      "hightempinsulin": 0.5, 
       "bolussnooze": 0, 
-      "iob": 0.158
+      "iob": -0.052
     }, 
     "enacted": {
       "bg": 138, 
       "temp": "absolute", 
       "snoozeBG": 112, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          138, 
-          136, 
-          135, 
-          133, 
-          131, 
-          130, 
-          129, 
-          127, 
-          126, 
-          125, 
-          124, 
-          124, 
-          123, 
-          123, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          122, 
-          123, 
-          123, 
-          123, 
-          123, 
-          124, 
-          124, 
-          124, 
-          125, 
-          125, 
-          126, 
-          126, 
-          126, 
-          126, 
-          127
-        ]
-      }, 
       "reason": "COB: 0, Dev: -10, BGI: 0.9, ISF: 100, Target: 129; Eventual BG 112 < 129, setting -0.275U/hr", 
       "rate": 0.125, 
       "COB": 0, 
@@ -100,42 +98,42 @@
     "scanDetails": [
       [
         "916.564", 
-        3, 
-        -90
+        5, 
+        -83
       ], 
       [
         "916.588", 
-        2, 
-        -88
+        5, 
+        -72
       ], 
       [
         "916.612", 
-        2, 
-        -87
+        5, 
+        -70
       ], 
       [
         "916.636", 
-        2, 
-        -87
+        5, 
+        -69
       ], 
       [
         "916.660", 
-        2, 
-        -87
+        5, 
+        -68
       ], 
       [
         "916.684", 
-        2, 
-        -88
+        5, 
+        -71
       ], 
       [
         "916.708", 
-        1, 
-        -94
+        5, 
+        -74
       ]
     ], 
-    "setFreq": 916.564, 
-    "timestamp": "2016-08-11T13:54:09.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-08-11T13:59:12.000Z", 
     "usedDefault": false
   }
 }
