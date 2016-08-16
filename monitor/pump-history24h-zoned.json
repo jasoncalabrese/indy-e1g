@@ -1,5 +1,92 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-08-16T12:25:16 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-08-16T12:25:16-07:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c082689c01a5bd0", 
+        "data": [
+          {
+            "amount": 0.95, 
+            "age": 137
+          }, 
+          {
+            "amount": 0.65, 
+            "age": 347
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.8, 
+    "duration": 0, 
+    "amount": 1.8, 
+    "unabsorbed": 0.15, 
+    "_head": "0100480048000600", 
+    "type": "normal", 
+    "_date": "90192c1010"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 70, 
+    "_description": "BolusWizard 2016-08-16T12:25:16 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-08-16T12:25:16-07:00", 
+    "_body": "2b5000b45073ea005ef800060048a0", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c082688c01a5ad0", 
+        "data": [
+          {
+            "amount": 0.95, 
+            "age": 136
+          }, 
+          {
+            "amount": 0.65, 
+            "age": 346
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "bg_target_high": 160, 
+    "sensitivity": 80, 
+    "carb_input": 43, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 2.35, 
+    "unabsorbed_insulin_total": 0.15, 
+    "correction_estimate": 50.65, 
+    "bg_target_low": 115, 
+    "_head": "5b46", 
+    "bolus_estimate": 1.8, 
+    "_date": "90190c1010"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 70, 
+    "_description": "BolusWizard 2016-08-16T12:24:54 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-08-16T12:24:54-07:00", 
+    "_body": "125000b45073ea0028f800060012a0", 
+    "carb_input": 18, 
+    "bg_target_high": 160, 
+    "sensitivity": 80, 
+    "carb_ratio": 18.0, 
+    "food_estimate": 1.0, 
+    "unabsorbed_insulin_total": 0.15, 
+    "correction_estimate": 50.65, 
+    "bg_target_low": 115, 
+    "_head": "5b46", 
+    "bolus_estimate": 0.45, 
+    "_date": "b6180c1010"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-08-16T12:23:54 head[2], body[0] op[0x16]", 
     "timestamp": "2016-08-16T12:23:54-07:00", 
