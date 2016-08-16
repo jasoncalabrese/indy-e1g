@@ -7,23 +7,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-16T15:23:56.000Z", 
+      "timestamp": "2016-08-16T15:27:39.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 140.4, 
-    "clock": "2016-08-16T08:23:47-07:00"
+    "clock": "2016-08-16T08:27:31-07:00"
   }, 
   "uploader": {
     "battery": 82, 
-    "batteryVoltage": 4000
+    "batteryVoltage": 3995
   }, 
   "openaps": {
     "suggested": {
       "bg": 149, 
       "temp": "absolute", 
-      "snoozeBG": 94, 
-      "timestamp": "2016-08-16T15:25:06.000Z", 
+      "snoozeBG": 97, 
+      "timestamp": "2016-08-16T15:29:03.000Z", 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -4, BGI: -2.35, ISF: 100, Target: 129; Eventual BG 97 < 129, setting -0.825U/hr", 
+      "COB": 0, 
+      "eventualBG": 97, 
+      "duration": 30, 
+      "tick": -3, 
+      "IOB": 0.484
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.1, 
+      "timestamp": "2016-08-16T15:27:31.000Z", 
+      "activity": 0.0047, 
+      "basaliob": 0.324, 
+      "hightempinsulin": 0.8, 
+      "bolussnooze": 0, 
+      "iob": 0.484
+    }, 
+    "enacted": {
+      "bg": 149, 
+      "temp": "absolute", 
+      "snoozeBG": 97, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
           149, 
@@ -33,62 +55,42 @@
           135, 
           131, 
           127, 
-          123, 
+          124, 
           120, 
           117, 
-          113, 
-          111, 
-          109, 
+          114, 
+          112, 
+          110, 
+          108, 
           107, 
+          106, 
+          105, 
           105, 
           104, 
-          103, 
-          102, 
-          102, 
-          101, 
-          101, 
-          101, 
-          100, 
-          100, 
-          100, 
-          101, 
-          101, 
-          101, 
-          102, 
-          102, 
+          104, 
           103, 
           103, 
-          104
+          103, 
+          103, 
+          103, 
+          103, 
+          104, 
+          104, 
+          105, 
+          105, 
+          106, 
+          106, 
+          107
         ]
       }, 
-      "reason": "COB: 0, Dev: -5, BGI: -2.15, ISF: 100, Target: 129; Eventual BG 94 < 129, setting -0.95U/hr, but 23m left and 0 ~ req 0U/hr: no action required", 
-      "COB": 0, 
-      "eventualBG": 94, 
-      "tick": -3, 
-      "IOB": 0.501
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.05, 
-      "timestamp": "2016-08-16T15:23:47.000Z", 
-      "activity": 0.0043, 
-      "basaliob": 0.324, 
-      "hightempinsulin": 0.85, 
-      "bolussnooze": 0, 
-      "iob": 0.501
-    }, 
-    "enacted": {
-      "bg": 156, 
-      "temp": "absolute", 
-      "snoozeBG": 117, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: 20, BGI: -1.75, ISF: 100, Target: 129; Eventual BG 117 < 129, setting -0.025U/hr", 
+      "reason": "COB: 0, Dev: -4, BGI: -2.35, ISF: 100, Target: 129; Eventual BG 97 < 129, setting -0.825U/hr", 
       "rate": 0, 
       "COB": 0, 
-      "eventualBG": 117, 
-      "timestamp": "2016-08-16T15:16:16.000Z", 
+      "eventualBG": 97, 
+      "timestamp": "2016-08-16T15:29:16.000Z", 
       "duration": 30, 
-      "tick": -5, 
-      "IOB": 0.591
+      "tick": -3, 
+      "IOB": 0.484
     }
   }, 
   "mmtune": {
@@ -96,41 +98,41 @@
       [
         "916.540", 
         5, 
-        -84
+        -78
       ], 
       [
         "916.564", 
         5, 
-        -77
+        -66
       ], 
       [
         "916.588", 
         5, 
-        -75
+        -61
       ], 
       [
         "916.612", 
         5, 
-        -74
+        -62
       ], 
       [
         "916.636", 
         5, 
-        -75
+        -63
       ], 
       [
         "916.660", 
         5, 
-        -77
+        -65
       ], 
       [
         "916.684", 
         5, 
-        -80
+        -74
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2016-08-16T15:23:35.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2016-08-16T15:27:19.000Z", 
     "usedDefault": false
   }
 }
