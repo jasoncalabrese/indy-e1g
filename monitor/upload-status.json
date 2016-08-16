@@ -7,127 +7,119 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-16T18:33:14.000Z", 
+      "timestamp": "2016-08-16T18:38:32.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 138.25, 
-    "clock": "2016-08-16T11:32:56-07:00"
+    "reservoir": 138.225, 
+    "clock": "2016-08-16T11:38:23-07:00"
   }, 
   "uploader": {
-    "battery": 68, 
-    "batteryVoltage": 3857
+    "battery": 67, 
+    "batteryVoltage": 3852
   }, 
   "openaps": {
     "suggested": {
-      "bg": 134, 
+      "bg": 125, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
-      "timestamp": "2016-08-16T18:34:30.000Z", 
-      "rate": 0.475, 
-      "reason": "COB: 8, Dev: 20, BGI: -4.25, ISF: 100, Target: 129; 133-127 in range: no temp required; setting current basal of 0.475 as temp", 
-      "COB": 8, 
-      "eventualBG": 133, 
+      "snoozeBG": 114, 
+      "timestamp": "2016-08-16T18:39:59.000Z", 
+      "rate": 0, 
+      "reason": "COB: 7, Dev: 14, BGI: -4, ISF: 100, Target: 129; Eventual BG 114 < 129, setting -0.125U/hr", 
+      "COB": 7, 
+      "eventualBG": 114, 
       "duration": 30, 
-      "tick": "+0", 
-      "IOB": 0.398
+      "tick": -5, 
+      "IOB": 0.254
     }, 
     "iob": {
       "netbasalinsulin": -0.6, 
-      "timestamp": "2016-08-16T18:32:56.000Z", 
-      "activity": 0.0085, 
-      "basaliob": -0.075, 
-      "hightempinsulin": 0.35, 
-      "bolussnooze": 0.014, 
-      "iob": 0.398
+      "timestamp": "2016-08-16T18:38:23.000Z", 
+      "activity": 0.008, 
+      "basaliob": -0.167, 
+      "hightempinsulin": 0.3, 
+      "bolussnooze": 0.001, 
+      "iob": 0.254
     }, 
     "enacted": {
-      "bg": 134, 
+      "bg": 125, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
+      "snoozeBG": 114, 
       "recieved": true, 
       "predBGs": {
-        "COB": [
-          134, 
-          133, 
-          132, 
-          131, 
-          130, 
-          129, 
-          129, 
-          128, 
-          128, 
-          127, 
-          127, 
-          127, 
-          127, 
-          127, 
-          127, 
-          127, 
-          127, 
-          128, 
-          129, 
-          129, 
-          130, 
-          131, 
-          132, 
-          132, 
-          133
-        ], 
         "aCOB": [
-          134, 
-          139, 
-          142, 
-          145, 
-          147, 
-          148, 
-          148, 
-          147, 
-          145, 
-          143, 
-          140, 
-          138, 
+          125, 
+          129, 
+          133, 
+          135, 
+          136, 
+          136, 
           136, 
           134, 
-          133, 
           132, 
-          131, 
-          130, 
-          130, 
           129, 
-          129, 
-          130
+          128, 
+          126, 
+          125, 
+          124, 
+          123, 
+          123, 
+          123, 
+          123, 
+          123, 
+          123, 
+          124, 
+          124, 
+          125, 
+          125, 
+          126, 
+          126, 
+          126, 
+          126, 
+          126, 
+          127
         ], 
         "IOB": [
-          134, 
-          133, 
-          131, 
-          130, 
-          129, 
-          127, 
-          126, 
-          124, 
-          122, 
-          120, 
-          119, 
-          117, 
-          115, 
+          125, 
+          121, 
+          116, 
           113, 
-          112, 
-          110, 
           109, 
-          109, 
-          108
+          106, 
+          103, 
+          100, 
+          98, 
+          95, 
+          94, 
+          92, 
+          91, 
+          90, 
+          89, 
+          89, 
+          89, 
+          89, 
+          89, 
+          89, 
+          90, 
+          90, 
+          91, 
+          91, 
+          92, 
+          92, 
+          92, 
+          92, 
+          92, 
+          93
         ]
       }, 
-      "reason": "COB: 8, Dev: 20, BGI: -4.25, ISF: 100, Target: 129; 133-127 in range: no temp required; setting current basal of 0.475 as temp", 
-      "rate": 0.45, 
-      "COB": 8, 
-      "eventualBG": 133, 
-      "timestamp": "2016-08-16T18:34:41.000Z", 
+      "reason": "COB: 7, Dev: 14, BGI: -4, ISF: 100, Target: 129; Eventual BG 114 < 129, setting -0.125U/hr", 
+      "rate": 0, 
+      "COB": 7, 
+      "eventualBG": 114, 
+      "timestamp": "2016-08-16T18:40:20.000Z", 
       "duration": 30, 
-      "tick": "+0", 
-      "IOB": 0.398
+      "tick": -5, 
+      "IOB": 0.254
     }
   }, 
   "mmtune": {
@@ -135,41 +127,41 @@
       [
         "916.564", 
         5, 
-        -71
+        -72
       ], 
       [
         "916.588", 
         5, 
-        -63
+        -62
       ], 
       [
         "916.612", 
         5, 
-        -62
+        -67
       ], 
       [
         "916.636", 
         5, 
-        -61
+        -70
       ], 
       [
         "916.660", 
         5, 
-        -62
+        -74
       ], 
       [
         "916.684", 
         5, 
-        -61
+        -72
       ], 
       [
         "916.708", 
         5, 
-        -66
+        -82
       ]
     ], 
-    "setFreq": 916.684, 
-    "timestamp": "2016-08-16T18:32:52.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2016-08-16T18:38:10.000Z", 
     "usedDefault": false
   }
 }
