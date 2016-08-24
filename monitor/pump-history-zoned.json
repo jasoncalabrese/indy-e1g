@@ -1,5 +1,43 @@
 [
   {
+    "_type": "Prime", 
+    "_description": "Prime 2016-08-24T14:04:56 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-08-24T14:04:56-07:00", 
+    "_body": "", 
+    "_head": "0300000028", 
+    "amount": 4.0, 
+    "fixed": 0.0, 
+    "type": "manual", 
+    "_date": "b8042e1810"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-08-24T14:04:11 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-08-24T14:04:11-07:00", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "8b040e1810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-08-24T14:03:05 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-08-24T14:03:05-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "85030e5810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-08-24T14:03:05 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-08-24T14:03:05-07:00", 
+    "_body": "00", 
+    "_head": "334a", 
+    "rate": 1.85, 
+    "_date": "85030e5810"
+  }, 
+  {
     "programmed": 0.6, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-08-24T13:56:28 head[8], body[0] op[0x01]", 
@@ -865,24 +903,5 @@
     "_head": "331b", 
     "rate": 0.675, 
     "_date": "8e06085810"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-08-24T08:01:12 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-08-24T08:01:12-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "8c01085810"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-08-24T08:01:12 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-08-24T08:01:12-07:00", 
-    "_body": "00", 
-    "_head": "3314", 
-    "rate": 0.5, 
-    "_date": "8c01085810"
   }
 ]
