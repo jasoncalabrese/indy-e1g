@@ -7,12 +7,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-28T22:06:35.000Z", 
+      "timestamp": "2016-08-28T22:11:36.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 129.425, 
-    "clock": "2016-08-28T15:06:31-07:00"
+    "clock": "2016-08-28T15:11:33-07:00"
   }, 
   "uploader": {
     "battery": 68, 
@@ -20,76 +20,56 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 92, 
+      "bg": 83, 
       "temp": "absolute", 
-      "snoozeBG": -3, 
-      "timestamp": "2016-08-28T22:07:55.000Z", 
-      "rate": 0, 
-      "reason": "COB: 18, Dev: -61, BGI: -6.05, ISF: 100, Target: 121; Eventual BG -3 < 121, setting -4.375U/hr", 
-      "COB": 18, 
-      "eventualBG": -3, 
-      "duration": 30, 
-      "tick": -13, 
-      "IOB": 0.336
-    }, 
-    "iob": {
-      "netbasalinsulin": 0.65, 
-      "timestamp": "2016-08-28T22:06:31.000Z", 
-      "activity": 0.0121, 
-      "basaliob": 0.294, 
-      "hightempinsulin": 1.2, 
-      "bolussnooze": 0, 
-      "iob": 0.336
-    }, 
-    "enacted": {
-      "bg": 92, 
-      "temp": "absolute", 
-      "snoozeBG": -3, 
-      "recieved": true, 
+      "snoozeBG": 3, 
+      "timestamp": "2016-08-28T22:13:07.000Z", 
       "predBGs": {
         "aCOB": [
-          92, 
-          86, 
-          81, 
-          77, 
-          73, 
-          71, 
-          69, 
-          68, 
-          68, 
-          69, 
-          71, 
+          83, 
+          78, 
           74, 
+          70, 
+          68, 
+          66, 
+          65, 
+          65, 
+          66, 
+          68, 
+          70, 
+          73, 
           77, 
-          80, 
+          81, 
           84, 
-          86, 
-          89, 
-          91, 
+          87, 
+          90, 
           93, 
-          94, 
           95, 
-          96, 
-          98, 
+          97, 
           99, 
           100, 
-          101, 
           102, 
-          103, 
           104, 
-          104, 
-          105, 
-          105, 
           106, 
-          106, 
-          106, 
-          107
+          107, 
+          109, 
+          110, 
+          111, 
+          113, 
+          114, 
+          114, 
+          115, 
+          115, 
+          116, 
+          116, 
+          116, 
+          117
         ], 
         "IOB": [
-          92, 
-          77, 
-          63, 
-          50, 
+          83, 
+          69, 
+          55, 
+          43, 
           39, 
           39, 
           39, 
@@ -101,6 +81,26 @@
           39
         ]
       }, 
+      "reason": "COB: 17, Dev: -57, BGI: -5.7, ISF: 100, Target: 121; BG 83<86, but 27m left and 0 ~ req 0U/hr: no action required", 
+      "COB": 17, 
+      "eventualBG": 3, 
+      "tick": -9, 
+      "IOB": 0.228
+    }, 
+    "iob": {
+      "netbasalinsulin": 0.7, 
+      "timestamp": "2016-08-28T22:11:33.000Z", 
+      "activity": 0.0114, 
+      "basaliob": 0.2, 
+      "hightempinsulin": 1.2, 
+      "bolussnooze": 0, 
+      "iob": 0.228
+    }, 
+    "enacted": {
+      "bg": 92, 
+      "temp": "absolute", 
+      "snoozeBG": -3, 
+      "recieved": true, 
       "reason": "COB: 18, Dev: -61, BGI: -6.05, ISF: 100, Target: 121; Eventual BG -3 < 121, setting -4.375U/hr", 
       "rate": 0, 
       "COB": 18, 
@@ -116,32 +116,32 @@
       [
         "916.564", 
         5, 
-        -56
+        -71
       ], 
       [
         "916.588", 
         5, 
-        -52
+        -55
       ], 
       [
         "916.612", 
         5, 
-        -56
+        -60
       ], 
       [
         "916.636", 
         5, 
-        -53
+        -54
       ], 
       [
         "916.660", 
         5, 
-        -54
+        -55
       ], 
       [
         "916.684", 
         5, 
-        -56
+        -63
       ], 
       [
         "916.708", 
@@ -149,8 +149,8 @@
         -65
       ]
     ], 
-    "setFreq": 916.588, 
-    "timestamp": "2016-08-28T22:06:14.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2016-08-28T22:11:16.000Z", 
     "usedDefault": false
   }
 }
