@@ -7,76 +7,93 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-30T04:47:37.000Z", 
+      "timestamp": "2016-08-30T04:54:24.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 101.25, 
-    "clock": "2016-08-29T21:47:34-07:00"
+    "reservoir": 101.05, 
+    "clock": "2016-08-29T21:54:21-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4365
+    "batteryVoltage": 4368
   }, 
   "openaps": {
+    "suggested": {
+      "bg": 180, 
+      "temp": "absolute", 
+      "snoozeBG": 119, 
+      "timestamp": "2016-08-30T04:56:10.000Z", 
+      "rate": 0.725, 
+      "reason": "COB: 0, Dev: 11, BGI: -3.52, ISF: 94, Target: 117; Eventual BG 119 > 117 but Min. Delta -5.00 < Exp. Delta -3.6; setting current basal of 0.725 as temp", 
+      "COB": 0, 
+      "eventualBG": 119, 
+      "duration": 30, 
+      "tick": -5, 
+      "IOB": 0.765
+    }, 
     "iob": {
-      "netbasalinsulin": 0.15, 
-      "timestamp": "2016-08-30T04:47:34.000Z", 
-      "activity": 0.0073, 
-      "basaliob": 0.532, 
-      "hightempinsulin": 0.7, 
+      "netbasalinsulin": 0.25, 
+      "timestamp": "2016-08-30T04:54:21.000Z", 
+      "activity": 0.0075, 
+      "basaliob": 0.626, 
+      "hightempinsulin": 0.8, 
       "bolussnooze": 0, 
-      "iob": 0.716
+      "iob": 0.765
     }, 
     "enacted": {
-      "bg": 178, 
+      "bg": 180, 
       "temp": "absolute", 
-      "snoozeBG": 157, 
+      "snoozeBG": 119, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          178, 
-          181, 
-          184, 
-          186, 
-          188, 
-          189, 
-          189, 
-          188, 
-          187, 
-          186, 
-          183, 
-          181, 
-          178, 
+          180, 
           175, 
-          172, 
           170, 
-          167, 
           165, 
-          163, 
-          161, 
-          159, 
-          157, 
+          160, 
           155, 
-          154, 
-          152, 
           151, 
-          150, 
-          149, 
-          148, 
-          147, 
-          147, 
-          146
+          146, 
+          141, 
+          137, 
+          133, 
+          129, 
+          125, 
+          121, 
+          117, 
+          113, 
+          109, 
+          105, 
+          101, 
+          98, 
+          94, 
+          91, 
+          89, 
+          86, 
+          84, 
+          82, 
+          80, 
+          79, 
+          77, 
+          76, 
+          76, 
+          75, 
+          74, 
+          74, 
+          74, 
+          73
         ]
       }, 
-      "reason": "COB: 0, Dev: 44, BGI: -3.42, ISF: 94, Target: 117; Eventual BG 157 >= 117, temp 0.975<1.6U/hr", 
-      "rate": 0.975, 
+      "reason": "COB: 0, Dev: 11, BGI: -3.52, ISF: 94, Target: 117; Eventual BG 119 > 117 but Min. Delta -5.00 < Exp. Delta -3.6; setting current basal of 0.725 as temp", 
+      "rate": 0.7, 
       "COB": 0, 
-      "eventualBG": 157, 
-      "timestamp": "2016-08-30T04:39:10.000Z", 
-      "duration": 20, 
-      "tick": "+6", 
-      "IOB": 0.693
+      "eventualBG": 119, 
+      "timestamp": "2016-08-30T04:56:30.000Z", 
+      "duration": 30, 
+      "tick": -5, 
+      "IOB": 0.765
     }
   }, 
   "mmtune": {
@@ -84,46 +101,41 @@
       [
         "916.564", 
         5, 
-        -89
+        -94
       ], 
       [
         "916.588", 
         5, 
-        -79
+        -85
       ], 
       [
         "916.612", 
         5, 
-        -78
+        -83
       ], 
       [
         "916.636", 
         5, 
-        -78
+        -83
       ], 
       [
         "916.660", 
         5, 
-        -77
+        -82
       ], 
       [
         "916.684", 
         5, 
-        -78
+        -83
       ], 
       [
         "916.708", 
         5, 
-        -80
-      ], 
-      [
-        "916.756", 
-        1, 
-        -88
+        -86
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-08-30T04:47:17.000Z", 
+    "timestamp": "2016-08-30T04:54:04.000Z", 
     "usedDefault": false
   }
 }
