@@ -7,80 +7,75 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-31T15:38:34.000Z", 
+      "timestamp": "2016-08-31T15:43:25.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 136.925, 
-    "clock": "2016-08-31T08:38:31-07:00"
+    "reservoir": 136.9, 
+    "clock": "2016-08-31T08:43:22-07:00"
   }, 
   "uploader": {
     "battery": 82, 
-    "batteryVoltage": 4000
+    "batteryVoltage": 4003
   }, 
   "openaps": {
     "suggested": {
       "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 118, 
-      "timestamp": "2016-08-31T15:40:07.000Z", 
-      "rate": 0.475, 
-      "reason": "COB: 0, Dev: 11, BGI: -3.78, ISF: 97, Target: 119; Eventual BG 118 < 119, Snooze BG 118, 27m@-0.375 = -0.169 < req -0.01-0.15", 
+      "snoozeBG": 132, 
+      "timestamp": "2016-08-31T15:44:57.000Z", 
+      "rate": 0.725, 
+      "reason": "COB: 0, Dev: 17, BGI: -3.68, ISF: 97, Target: 119; Eventual BG 132 >= 119, temp 0.45<0.725U/hr", 
       "COB": 0, 
-      "eventualBG": 118, 
+      "eventualBG": 132, 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": 0.558
+      "tick": "+0", 
+      "IOB": 0.471
     }, 
     "iob": {
-      "netbasalinsulin": 0.4, 
-      "timestamp": "2016-08-31T15:38:31.000Z", 
-      "activity": 0.0078, 
-      "basaliob": 0.362, 
+      "netbasalinsulin": 0.35, 
+      "timestamp": "2016-08-31T15:43:22.000Z", 
+      "activity": 0.0076, 
+      "basaliob": 0.304, 
       "hightempinsulin": 0.5, 
       "bolussnooze": 0, 
-      "iob": 0.558
+      "iob": 0.471
     }, 
     "enacted": {
       "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 118, 
+      "snoozeBG": 132, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
           161, 
+          160, 
           159, 
-          157, 
+          158, 
+          156, 
           154, 
-          152, 
-          150, 
-          148, 
+          153, 
+          151, 
+          149, 
+          147, 
           145, 
           143, 
-          140, 
-          138, 
+          141, 
+          139, 
+          137, 
           136, 
+          135, 
           134, 
+          133, 
           132, 
           131, 
+          130, 
           130, 
           129, 
           128, 
           128, 
-          127, 
-          127, 
-          126, 
-          126, 
-          126, 
-          126, 
-          126, 
-          126, 
-          126, 
-          126, 
-          126, 
-          126, 
-          126, 
-          127, 
+          128, 
+          128, 
           127, 
           127, 
           127, 
@@ -89,14 +84,14 @@
           128
         ]
       }, 
-      "reason": "COB: 0, Dev: 11, BGI: -3.78, ISF: 97, Target: 119; Eventual BG 118 < 119, Snooze BG 118, 27m@-0.375 = -0.169 < req -0.01-0.15", 
-      "rate": 0.45, 
+      "reason": "COB: 0, Dev: 17, BGI: -3.68, ISF: 97, Target: 119; Eventual BG 132 >= 119, temp 0.45<0.725U/hr", 
+      "rate": 0.7, 
       "COB": 0, 
-      "eventualBG": 118, 
-      "timestamp": "2016-08-31T15:40:28.000Z", 
+      "eventualBG": 132, 
+      "timestamp": "2016-08-31T15:45:19.000Z", 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": 0.558
+      "tick": "+0", 
+      "IOB": 0.471
     }
   }, 
   "mmtune": {
@@ -104,41 +99,41 @@
       [
         "916.564", 
         5, 
-        -60
+        -73
       ], 
       [
         "916.588", 
         5, 
-        -58
+        -71
       ], 
       [
         "916.612", 
         5, 
-        -57
+        -70
       ], 
       [
         "916.636", 
-        5, 
-        -57
+        3, 
+        -81
       ], 
       [
         "916.660", 
         5, 
-        -56
+        -71
       ], 
       [
         "916.684", 
-        5, 
-        -58
+        4, 
+        -75
       ], 
       [
         "916.708", 
-        5, 
-        -73
+        1, 
+        -95
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-08-31T15:38:13.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2016-08-31T15:43:01.000Z", 
     "usedDefault": false
   }
 }
