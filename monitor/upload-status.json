@@ -7,45 +7,23 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-04T17:11:33.000Z", 
+      "timestamp": "2016-09-04T17:15:33.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 122.4, 
-    "clock": "2016-09-04T10:11:31-07:00"
+    "clock": "2016-09-04T10:15:01-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4368
+    "batteryVoltage": 4376
   }, 
   "openaps": {
     "suggested": {
       "bg": 134, 
       "temp": "absolute", 
-      "snoozeBG": 37, 
-      "timestamp": "2016-09-04T17:13:06.000Z", 
-      "rate": 0, 
-      "reason": "COB: 0, Dev: -66, BGI: -3.15, ISF: 90, Target: 115; Eventual BG 37 < 115, setting -2.875U/hr", 
-      "COB": 0, 
-      "eventualBG": 37, 
-      "duration": 30, 
-      "tick": -25, 
-      "IOB": 0.347
-    }, 
-    "iob": {
-      "netbasalinsulin": 0.05, 
-      "timestamp": "2016-09-04T17:11:31.000Z", 
-      "activity": 0.007, 
-      "basaliob": 0.223, 
-      "hightempinsulin": 0.7, 
-      "bolussnooze": 0, 
-      "iob": 0.347
-    }, 
-    "enacted": {
-      "bg": 134, 
-      "temp": "absolute", 
-      "snoozeBG": 37, 
-      "recieved": true, 
+      "snoozeBG": 44, 
+      "timestamp": "2016-09-04T17:16:49.000Z", 
       "predBGs": {
         "IOB": [
           134, 
@@ -63,6 +41,26 @@
           39
         ]
       }, 
+      "reason": "COB: 0, Dev: -66, BGI: -3.15, ISF: 90, Target: 115; Eventual BG 44 < 115, setting -2.55U/hr, but 28m left and 0 ~ req 0U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 44, 
+      "tick": -25, 
+      "IOB": 0.272
+    }, 
+    "iob": {
+      "netbasalinsulin": 0, 
+      "timestamp": "2016-09-04T17:15:01.000Z", 
+      "activity": 0.007, 
+      "basaliob": 0.161, 
+      "hightempinsulin": 0.7, 
+      "bolussnooze": 0, 
+      "iob": 0.272
+    }, 
+    "enacted": {
+      "bg": 134, 
+      "temp": "absolute", 
+      "snoozeBG": 37, 
+      "recieved": true, 
       "reason": "COB: 0, Dev: -66, BGI: -3.15, ISF: 90, Target: 115; Eventual BG 37 < 115, setting -2.875U/hr", 
       "rate": 0, 
       "COB": 0, 
@@ -83,7 +81,7 @@
       [
         "916.588", 
         5, 
-        -75
+        -71
       ], 
       [
         "916.612", 
@@ -93,26 +91,26 @@
       [
         "916.636", 
         5, 
-        -75
+        -73
       ], 
       [
         "916.660", 
         5, 
-        -78
+        -68
       ], 
       [
         "916.684", 
         5, 
-        -79
+        -67
       ], 
       [
         "916.708", 
         5, 
-        -88
+        -79
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2016-09-04T17:11:12.000Z", 
+    "setFreq": 916.684, 
+    "timestamp": "2016-09-04T17:14:51.000Z", 
     "usedDefault": false
   }
 }
