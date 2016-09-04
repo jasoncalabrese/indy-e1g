@@ -7,82 +7,76 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-04T17:51:10.000Z", 
+      "timestamp": "2016-09-04T17:55:20.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 122.35, 
-    "clock": "2016-09-04T10:51:08-07:00"
+    "reservoir": 122.3, 
+    "clock": "2016-09-04T10:55:19-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4373
+    "batteryVoltage": 4378
   }, 
   "openaps": {
     "suggested": {
-      "bg": 108, 
+      "bg": 105, 
       "temp": "absolute", 
-      "snoozeBG": 115, 
-      "timestamp": "2016-09-04T17:52:33.000Z", 
-      "rate": 0.6, 
-      "reason": "COB: 0, Dev: -15, BGI: -1.89, ISF: 90, Target: 115; Eventual BG 115 > 115 but Min. Delta -4.40 < Exp. Delta -1.9; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+      "snoozeBG": 118, 
+      "timestamp": "2016-09-04T17:57:35.000Z", 
+      "predBGs": {
+        "IOB": [
+          105, 
+          103, 
+          101, 
+          99, 
+          98, 
+          97, 
+          97, 
+          97, 
+          98, 
+          99, 
+          100, 
+          101, 
+          102, 
+          103, 
+          105, 
+          106, 
+          107, 
+          109, 
+          110, 
+          111, 
+          112, 
+          113, 
+          114, 
+          115, 
+          115, 
+          116, 
+          116, 
+          116, 
+          117
+        ]
+      }, 
+      "reason": "COB: 0, Dev: -6, BGI: -1.57, ISF: 90, Target: 115; Eventual BG 118 > 115 but Min. Delta -2.53 < Exp. Delta -1.7; setting current basal of 0.6 as temp, but 26m left and 0.575 ~ req 0.6U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 115, 
-      "duration": 30, 
+      "eventualBG": 118, 
       "tick": -2, 
-      "IOB": -0.245
+      "IOB": -0.209
     }, 
     "iob": {
-      "netbasalinsulin": -0.15, 
-      "timestamp": "2016-09-04T17:51:08.000Z", 
-      "activity": 0.0042, 
-      "basaliob": -0.267, 
+      "netbasalinsulin": -0.05, 
+      "timestamp": "2016-09-04T17:55:19.000Z", 
+      "activity": 0.0035, 
+      "basaliob": -0.225, 
       "hightempinsulin": 0.65, 
       "bolussnooze": 0, 
-      "iob": -0.245
+      "iob": -0.209
     }, 
     "enacted": {
       "bg": 108, 
       "temp": "absolute", 
       "snoozeBG": 115, 
       "recieved": true, 
-      "predBGs": {
-        "IOB": [
-          108, 
-          104, 
-          100, 
-          97, 
-          95, 
-          93, 
-          92, 
-          92, 
-          92, 
-          93, 
-          94, 
-          95, 
-          97, 
-          98, 
-          100, 
-          102, 
-          104, 
-          106, 
-          108, 
-          110, 
-          112, 
-          114, 
-          115, 
-          116, 
-          118, 
-          119, 
-          120, 
-          120, 
-          121, 
-          122, 
-          122, 
-          122, 
-          123
-        ]
-      }, 
       "reason": "COB: 0, Dev: -15, BGI: -1.89, ISF: 90, Target: 115; Eventual BG 115 > 115 but Min. Delta -4.40 < Exp. Delta -1.9; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
       "rate": 0.575, 
       "COB": 0, 
@@ -97,42 +91,42 @@
     "scanDetails": [
       [
         "916.564", 
-        3, 
-        -95
+        5, 
+        -71
       ], 
       [
         "916.588", 
-        3, 
-        -89
+        5, 
+        -66
       ], 
       [
         "916.612", 
         5, 
-        -82
+        -62
       ], 
       [
         "916.636", 
-        4, 
-        -88
+        5, 
+        -70
       ], 
       [
         "916.660", 
         5, 
-        -84
+        -73
       ], 
       [
         "916.684", 
         5, 
-        -78
+        -80
       ], 
       [
         "916.708", 
-        5, 
-        -92
+        2, 
+        -95
       ]
     ], 
-    "setFreq": 916.684, 
-    "timestamp": "2016-09-04T17:50:58.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2016-09-04T17:55:00.000Z", 
     "usedDefault": false
   }
 }
