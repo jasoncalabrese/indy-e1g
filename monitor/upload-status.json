@@ -7,89 +7,90 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-07T02:58:24.000Z", 
+      "timestamp": "2016-09-07T03:03:20.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 114.35, 
-    "clock": "2016-09-06T19:58:23-07:00"
+    "reservoir": 114.3, 
+    "clock": "2016-09-06T20:03:20-07:00"
   }, 
   "uploader": {
-    "battery": 36, 
-    "batteryVoltage": 3579
+    "battery": 34, 
+    "batteryVoltage": 3565
   }, 
   "openaps": {
     "suggested": {
-      "bg": 137, 
+      "bg": 138, 
       "temp": "absolute", 
-      "snoozeBG": 109, 
-      "timestamp": "2016-09-07T02:59:56.000Z", 
-      "rate": 0.475, 
-      "reason": "COB: 0, Dev: -4, BGI: -0.9, ISF: 90, Target: 115; Eventual BG 109 < 115, setting 0.475U/hr", 
+      "snoozeBG": 124, 
+      "timestamp": "2016-09-07T03:04:45.000Z", 
+      "rate": 0.9, 
+      "reason": "COB: 0, Dev: 4, BGI: -0.99, ISF: 90, Target: 115; Eventual BG 124 >= 115, temp 0.45<0.9U/hr", 
       "COB": 0, 
-      "eventualBG": 109, 
+      "eventualBG": 124, 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": 0.262
+      "tick": "+1", 
+      "IOB": 0.201
     }, 
     "iob": {
       "netbasalinsulin": -0.1, 
-      "timestamp": "2016-09-07T02:58:23.000Z", 
-      "activity": 0.002, 
-      "basaliob": 0.262, 
+      "timestamp": "2016-09-07T03:03:20.000Z", 
+      "activity": 0.0022, 
+      "basaliob": 0.201, 
       "hightempinsulin": 0.65, 
       "bolussnooze": 0, 
-      "iob": 0.262
+      "iob": 0.201
     }, 
     "enacted": {
-      "bg": 137, 
+      "bg": 138, 
       "temp": "absolute", 
-      "snoozeBG": 109, 
+      "snoozeBG": 124, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
+          138, 
+          138, 
           137, 
+          136, 
           135, 
+          135, 
+          134, 
           133, 
+          132, 
           131, 
+          130, 
           129, 
+          128, 
           127, 
-          125, 
-          123, 
-          122, 
-          120, 
-          118, 
-          117, 
-          115, 
-          114, 
-          113, 
-          112, 
-          111, 
-          110, 
-          110, 
-          109, 
-          109, 
-          108, 
-          108, 
-          108, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          106
+          127, 
+          127, 
+          127, 
+          127, 
+          127, 
+          127, 
+          127, 
+          127, 
+          128, 
+          128, 
+          128, 
+          129, 
+          129, 
+          129, 
+          130, 
+          130, 
+          130, 
+          130, 
+          131
         ]
       }, 
-      "reason": "COB: 0, Dev: -4, BGI: -0.9, ISF: 90, Target: 115; Eventual BG 109 < 115, setting 0.475U/hr", 
-      "rate": 0.45, 
+      "reason": "COB: 0, Dev: 4, BGI: -0.99, ISF: 90, Target: 115; Eventual BG 124 >= 115, temp 0.45<0.9U/hr", 
+      "rate": 0.9, 
       "COB": 0, 
-      "eventualBG": 109, 
-      "timestamp": "2016-09-07T03:00:20.000Z", 
+      "eventualBG": 124, 
+      "timestamp": "2016-09-07T03:05:11.000Z", 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": 0.262
+      "tick": "+1", 
+      "IOB": 0.201
     }
   }, 
   "mmtune": {
@@ -97,41 +98,41 @@
       [
         "916.564", 
         5, 
-        -63
+        -77
       ], 
       [
         "916.588", 
-        5, 
-        -60
+        4, 
+        -73
       ], 
       [
         "916.612", 
-        5, 
-        -60
+        4, 
+        -73
       ], 
       [
         "916.636", 
         5, 
-        -60
+        -74
       ], 
       [
         "916.660", 
         5, 
-        -61
+        -78
       ], 
       [
         "916.684", 
         5, 
-        -65
+        -80
       ], 
       [
         "916.708", 
         5, 
-        -74
+        -89
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-09-07T02:58:03.000Z", 
+    "timestamp": "2016-09-07T03:02:57.000Z", 
     "usedDefault": false
   }
 }
