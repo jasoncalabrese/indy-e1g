@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-09-09T16:06:47 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-09-09T16:06:47", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "af46104910"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-09-09T16:06:47 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-09-09T16:06:47", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "af46104910"
+  }, 
+  {
     "programmed": 0.7, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-09-09T15:59:59 head[8], body[0] op[0x01]", 
@@ -906,43 +925,5 @@
     "food_estimate": 0.8, 
     "carb_input": 18, 
     "sensitivity": 90
-  }, 
-  {
-    "_type": "BGReceived", 
-    "link": "c23647", 
-    "_description": "BGReceived 2016-09-09T10:05:09 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-09-09T10:05:09", 
-    "_body": "c23647", 
-    "_head": "3f07", 
-    "amount": 63, 
-    "_date": "8945ea6910"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-09-09T10:05:09 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-09-09T10:05:09", 
-    "_body": "", 
-    "_head": "0a3f", 
-    "amount": 63, 
-    "_date": "89452a6910"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-09-09T10:02:20 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-09-09T10:02:20", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "94420a4910"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-09-09T10:02:20 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-09-09T10:02:20", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "94420a4910"
   }
 ]
