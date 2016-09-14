@@ -7,30 +7,139 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-14T14:27:16.000Z", 
+      "timestamp": "2016-09-14T14:36:49.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 80.05, 
-    "clock": "2016-09-14T07:27:18-07:00"
+    "reservoir": 79.975, 
+    "clock": "2016-09-14T07:36:50-07:00"
   }, 
   "uploader": {
-    "battery": 85, 
-    "batteryVoltage": 4033
+    "battery": 86, 
+    "batteryVoltage": 4038
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-09-14T14:31:01.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Wed Sep 14 2016 07:20:24 GMT-0700 (PDT) but your system time is Wed Sep 14 2016 07:31:01 GMT-0700 (PDT)"
+      "bg": 90, 
+      "temp": "absolute", 
+      "snoozeBG": 120, 
+      "timestamp": "2016-09-14T14:38:37.000Z", 
+      "reason": "COB: 7, Dev: 25, BGI: -1.18, ISF: 95, Target: 80; Eventual BG 93 >= 80, no temp, setting 0.8U/hr", 
+      "rate": 0.8, 
+      "COB": 7, 
+      "eventualBG": 93, 
+      "duration": 30, 
+      "tick": "+8", 
+      "IOB": 0.536
     }, 
     "iob": {
-      "netbasalinsulin": -0.25, 
-      "timestamp": "2016-09-14T14:27:18.000Z", 
-      "activity": 0.0015, 
-      "basaliob": -0.255, 
-      "hightempinsulin": 0.25, 
-      "bolussnooze": 0.575, 
-      "iob": 0.558
+      "netbasalinsulin": -0.3, 
+      "timestamp": "2016-09-14T14:36:50.000Z", 
+      "activity": 0.0025, 
+      "basaliob": -0.225, 
+      "hightempinsulin": 0.2, 
+      "bolussnooze": 0.394, 
+      "iob": 0.536
+    }, 
+    "enacted": {
+      "bg": 90, 
+      "temp": "absolute", 
+      "snoozeBG": 120, 
+      "recieved": true, 
+      "predBGs": {
+        "COB": [
+          90, 
+          93, 
+          95, 
+          97, 
+          99, 
+          100, 
+          100, 
+          100, 
+          100, 
+          99, 
+          99, 
+          99, 
+          98, 
+          98, 
+          97, 
+          97, 
+          97, 
+          96, 
+          96, 
+          95, 
+          95, 
+          94, 
+          94, 
+          94, 
+          93
+        ], 
+        "aCOB": [
+          90, 
+          98, 
+          105, 
+          110, 
+          115, 
+          118, 
+          120, 
+          121, 
+          120, 
+          119, 
+          118, 
+          115, 
+          112, 
+          110, 
+          107, 
+          105, 
+          103, 
+          101, 
+          99, 
+          97, 
+          96, 
+          94, 
+          93, 
+          92, 
+          91, 
+          91, 
+          90
+        ], 
+        "IOB": [
+          90, 
+          93, 
+          95, 
+          96, 
+          97, 
+          97, 
+          96, 
+          95, 
+          93, 
+          91, 
+          88, 
+          86, 
+          83, 
+          81, 
+          78, 
+          76, 
+          74, 
+          72, 
+          70, 
+          68, 
+          67, 
+          65, 
+          64, 
+          63, 
+          62, 
+          61
+        ]
+      }, 
+      "rate": 0.8, 
+      "reason": "COB: 7, Dev: 25, BGI: -1.18, ISF: 95, Target: 80; Eventual BG 93 >= 80, no temp, setting 0.8U/hr", 
+      "COB": 7, 
+      "eventualBG": 93, 
+      "timestamp": "2016-09-14T14:39:18.000Z", 
+      "duration": 30, 
+      "tick": "+8", 
+      "IOB": 0.536
     }
   }, 
   "mmtune": {
@@ -38,17 +147,17 @@
       [
         "916.564", 
         5, 
-        -62
+        -56
       ], 
       [
         "916.588", 
         5, 
-        -56
+        -49
       ], 
       [
         "916.612", 
         5, 
-        -55
+        -49
       ], 
       [
         "916.636", 
@@ -58,7 +167,7 @@
       [
         "916.660", 
         5, 
-        -55
+        -57
       ], 
       [
         "916.684", 
@@ -68,11 +177,11 @@
       [
         "916.708", 
         5, 
-        -63
+        -77
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2016-09-14T14:26:56.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2016-09-14T14:36:27.000Z", 
     "usedDefault": false
   }
 }
