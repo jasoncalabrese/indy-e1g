@@ -7,30 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-09-24T13:56:16.000Z", 
+      "timestamp": "2016-09-24T13:59:11.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 102.425, 
-    "clock": "2016-09-24T06:56:13-07:00"
+    "reservoir": 102.4, 
+    "clock": "2016-09-24T06:59:17-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4377
+    "batteryVoltage": 4372
   }, 
   "openaps": {
     "suggested": {
       "bg": 115, 
       "temp": "absolute", 
-      "snoozeBG": 121, 
-      "timestamp": "2016-09-24T13:57:48.000Z", 
+      "snoozeBG": 120, 
+      "timestamp": "2016-09-24T14:00:54.000Z", 
       "predBGs": {
         "IOB": [
           115, 
           115, 
           115, 
           115, 
-          114, 
+          115, 
           115, 
           115, 
           115, 
@@ -39,18 +39,20 @@
           117, 
           118, 
           119, 
-          119, 
           120, 
+          121, 
           121, 
           122, 
           123, 
           123, 
           124, 
-          124, 
+          125, 
           125, 
           125, 
           126, 
           126, 
+          126, 
+          127, 
           127, 
           127, 
           127, 
@@ -59,20 +61,20 @@
           128
         ]
       }, 
-      "reason": "COB: 0, Dev: -5, BGI: 0.5, ISF: 100, Target: 121; Eventual BG 121 > 121 but Min. Delta -0.34 < Exp. Delta 0.5, temp 0.45 ~ req 0.45U/hr", 
+      "reason": "COB: 0, Dev: -5, BGI: 0.5, ISF: 100, Target: 121; Eventual BG 120 < 121, temp 0.45 ~< req 0.45U/hr", 
       "COB": 0, 
-      "eventualBG": 121, 
+      "eventualBG": 120, 
       "tick": "+1", 
-      "IOB": -0.119
+      "IOB": -0.116
     }, 
     "iob": {
       "netbasalinsulin": -0.3, 
-      "timestamp": "2016-09-24T13:56:13.000Z", 
+      "timestamp": "2016-09-24T13:59:17.000Z", 
       "activity": -0.001, 
-      "basaliob": -0.119, 
+      "basaliob": -0.116, 
       "hightempinsulin": 0.15, 
       "bolussnooze": 0, 
-      "iob": -0.119
+      "iob": -0.116
     }
   }, 
   "mmtune": {
@@ -80,7 +82,7 @@
       [
         "916.564", 
         5, 
-        -85
+        -84
       ], 
       [
         "916.588", 
@@ -89,8 +91,8 @@
       ], 
       [
         "916.612", 
-        5, 
-        -74
+        3, 
+        -84
       ], 
       [
         "916.636", 
@@ -109,12 +111,12 @@
       ], 
       [
         "916.708", 
-        3, 
-        -87
+        5, 
+        -80
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-09-24T13:55:47.000Z", 
+    "timestamp": "2016-09-24T13:58:50.000Z", 
     "usedDefault": false
   }
 }
